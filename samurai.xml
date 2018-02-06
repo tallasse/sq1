@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<!-- Settings for Samurai -->
+
+<settings>
+
+	<!-- renderer settings -->
+
+	<renderer width="1024" height="768" windowed="0" />
+	
+	<!-- intro interval="150" sequence -->
+	
+	<intro display="1" logo="7" title="10" credits="10" />
+
+	<!-- image file names -->
+
+	<images>
+		<image src="./image/cleardaymountains.jpg" />
+		<image src="./image/cloudydaymountains.jpg" />
+		<image src="./image/clearsunsetmountains.jpg" />
+		<image src="./image/clearnightmountains.jpg" />
+		<image src="./image/cloudynightmountains.jpg" />
+		<image src="./image/cleardayseashore.jpg" />
+		<image src="./image/clearsunsetseashore.jpg" />
+		<image src="./image/clearnightcity.jpg" />
+		
+		<image src="./image/grassyfloor.jpg" />
+		<image src="./image/woodfloor.jpg" />
+		<image src="./image/stonefloor.jpg" />
+		<image src="./image/sandfloor.jpg" />
+		
+		<image src="./image/larc2.jpg" />
+		<image src="./image/titlescreen.jpg" />
+		<image src="./image/credits.jpg" />
+		<image src="./image/credits1.jpg" />
+		<image src="./image/credits2.jpg" />
+		<image src="./image/menu.jpg" />
+		<image src="./image/cursor.png" />
+		<image src="./image/dmenu.jpg" />
+		
+		<image src="./image/Stage00.jpg" />
+		<image src="./image/Stage01.jpg" />	
+		<image src="./image/Stage02.jpg" />	
+		<image src="./image/Stage03.jpg" />	
+		<image src="./image/Stage04.jpg" />	
+		<image src="./image/Stage05.jpg" />	
+		<image src="./image/Stage06.jpg" />	
+		<image src="./image/Stage07.jpg" />	
+		<image src="./image/Stage08.jpg" />	
+		<image src="./image/Stage09.jpg" />	
+		
+	</images>
+	
+	<!-- sprites -->
+	
+	<sprites>
+		<sprite name="main_stand" ObjectType="0" file="./sprites/main_stand" ext="png" frames="3" cycle="1" interval="150" sequence="0,1,2,1,0" />
+		<sprite name="main_walk" ObjectType="1" file="./sprites/main_walk" ext="png" frames="7" cycle="1" interval="150" sequence="0,1,2,3,4,5,6" />
+		<sprite name="main_run" ObjectType="2" file="./sprites/main_run" ext="png" frames="6" cycle="1" interval="150" sequence="0,1,2,3,4,5" />
+		<sprite name="main_slash" ObjectType="3" file="./sprites/main_slash" ext="png" frames="4" cycle="0" interval="150" sequence="0,1,2,3,0" />
+		<sprite name="main_stab" ObjectType="4" file="./sprites/main_stab" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2,1,0" />
+		<sprite name="main_cut" ObjectType="5" file="./sprites/main_cut" ext="png" frames="5" cycle="0" interval="50" sequence="0,1,2,3,3,4,4,4,1,1,0" />
+		<sprite name="main_defend" ObjectType="6" file="./sprites/main_defend" ext="png" frames="1" cycle="0" interval="200" sequence="0,0,0,0,0" />
+		<sprite name="main_jump" ObjectType="7" file="./sprites/main_jump" ext="png" frames="1" cycle="0" interval="150" sequence="0,0,0,0,0" />
+		<sprite name="main_die" ObjectType="8" file="./sprites/main_die" ext="png" frames="10" cycle="0" interval="200" sequence="0,1,2,3,4,5,6,7,8,9" />
+		<sprite name="main_duck" ObjectType="9" file="./sprites/main_duck" ext="png" frames="1" cycle="0" interval="200" sequence="0,0,0,0,0" />
+
+		<sprite name="sam_stand" ObjectType="10" file="./sprites/sam_stand" ext="png" frames="1" cycle="1" interval="150" sequence="0" />
+		<sprite name="sam_walk" ObjectType="11" file="./sprites/sam_walk" ext="png" frames="5" cycle="1" interval="150" sequence="0,1,2,3,4" />
+		<sprite name="sam_slash" ObjectType="12" file="./sprites/sam_slash" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2" />
+		<sprite name="spear_stand" ObjectType="13" file="./sprites/spear_stand" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="spear_walk" ObjectType="14" file="./sprites/spear_walk" ext="png" frames="3" cycle="1" interval="150" sequence="0,1,2" />
+		<sprite name="spear_stab" ObjectType="15" file="./sprites/spear_stab" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2" />
+		<sprite name="bow_stand" ObjectType="16" file="./sprites/bow_stand" ext="png" frames="1" cycle="0" interval="150" sequence="0"  />
+		<sprite name="bow_walk" ObjectType="17" file="./sprites/bow_walk" ext="png" frames="5" cycle="1" interval="150" sequence="0,1,2,3,4" />
+		<sprite name="bow_shoot" ObjectType="18" file="./sprites/bow_shoot" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2" />
+		<sprite name="sam_die" ObjectType="19" file="./sprites/sam_die" ext="png" frames="10" cycle="0" interval="150" sequence="0,1,2,3,4,5,6,7,8,9" />
+		
+		<sprite name="rock" ObjectType="20" file="./sprites/rock" ext="png" frames="1" cycle="0" interval="150" sequence="0" />		
+		<sprite name="button" ObjectType="21" file="./sprites/button" ext="png" frames="2" cycle="0" interval="150" sequence="0,1"/>
+		<sprite name="blood" ObjectType="22" file="./sprites/blood" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="arrow" ObjectType="23" file="./sprites/arrow" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="mountains" ObjectType="24" file="./sprites/mountains" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="fire1" ObjectType="25" file="./sprites/fire1" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="fire2" ObjectType="26" file="./sprites/fire2" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="fire3" ObjectType="27" file="./sprites/fire3" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="grass" ObjectType="28" file="./sprites/grass" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="tree1" ObjectType="29" file="./sprites/tree1" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="tree2" ObjectType="30" file="./sprites/tree2" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="smalltree1" ObjectType="31" file="./sprites/smalltree1" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		
+		<sprite name="smoke" ObjectType="32" file="./sprites/smoke" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="particle_p" ObjectType="33" file="./sprites/particle_p" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="shard_p" ObjectType="34" file="./sprites/shard" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="leaf_p" ObjectType="35" file="./sprites/leaf" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="rain_p" ObjectType="36" file="./sprites/rain" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		
+		<sprite name="majou_stand" ObjectType="37" file="./sprites/majou_stand" ext="png" frames="5" cycle="1" interval="150" sequence="0,1,2,1,0"/>
+		<sprite name="majou_attack" ObjectType="38" file="./sprites/majou_attack" ext="png" frames="5" cycle="0" interval="150" sequence="0,1,2,1,0"/>
+		<sprite name="majou_die" ObjectType="39" file="./sprites/majou_die" ext="png" frames="8" cycle="0" interval="150" sequence="0,1,2,3,4,5,6,7"/>
+		<sprite name="bigrice" ObjectType="40" file="./sprites/bigrice" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="smallrice" ObjectType="41" file="./sprites/smallrice" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="cottage" ObjectType="42" file="./sprites/cottage" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="burned_cottage" ObjectType="43" file="./sprites/burned_cottage" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="smallbush" ObjectType="44" file="./sprites/smallbush" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="castle" ObjectType="45" file="./sprites/castle" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="cave" ObjectType="46" file="./sprites/cave" ext="png" frames="1" cycle="0" interval="150" sequence="0"/>
+		<sprite name="shuriken" ObjectType="47" file="./sprites/shuriken" ext="png" frames="4" cycle="1" interval="50" sequence="0,1,2,3"/>
+		<sprite name="ninja_stand" ObjectType="48" file="./sprites/ninja_stand" ext="png" frames="1" cycle="1" interval="150" sequence="0" />
+		<sprite name="ninja_walk" ObjectType="49" file="./sprites/ninja_walk" ext="png" frames="5" cycle="1" interval="150" sequence="0,1,2,3,4" />
+		<sprite name="ninja_slash" ObjectType="50" file="./sprites/ninja_slash" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2" />
+		<sprite name="ninja_throw" ObjectType="51" file="./sprites/ninja_throw" ext="png" frames="2" cycle="0" interval="150" sequence="0,1,0" />
+		<sprite name="ninja_die" ObjectType="52" file="./sprites/ninja_die" ext="png" frames="8" cycle="0" interval="150" sequence="0,0,1,2,3,4,5,6,7" />
+		<sprite name="ninja_flip" ObjectType="53" file="./sprites/ninja_flip" ext="png" frames="9" cycle="1" interval="30" sequence="0,1,2,3,4,5,6,7,8" />
+		
+		<sprite name="main_hi_blow" ObjectType="54" file="./sprites/main_hi_blow" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="main_lo_blow" ObjectType="55" file="./sprites/main_lo_blow" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		
+		<sprite name="nothing" ObjectType="56" file="./sprites/nothing" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="armor" ObjectType="57" file="./sprites/armor" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		
+		<sprite name="insidewall" ObjectType="58" file="./sprites/wall" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="lantern" ObjectType="59" file="./sprites/lantern" ext="png" frames="2" cycle="0" interval="150" sequence="0,1" />
+
+		<sprite name="daimyo_stand" ObjectType="60" file="./sprites/daimyo_stand" ext="png" frames="1" cycle="1" interval="150" sequence="0" />
+		<sprite name="daimyo_walk" ObjectType="61" file="./sprites/daimyo_walk" ext="png" frames="4" cycle="1" interval="150" sequence="0,1,2,3" />
+		<sprite name="daimyo_stab" ObjectType="62" file="./sprites/daimyo_stab" ext="png" frames="7" cycle="0" interval="100" sequence="0,1,2,3,4,5,6" />
+		<sprite name="daimyo_slash" ObjectType="63" file="./sprites/daimyo_slash" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2" />
+		<sprite name="daimyo_die" ObjectType="64" file="./sprites/daimyo_die" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="daimyo_jump" ObjectType="65" file="./sprites/daimyo_jump" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2,2,2,2,2" />		
+		
+		<sprite name="onmyou_stand" ObjectType="66" file="./sprites/onmyou_stand" ext="png" frames="6" cycle="1" interval="150" sequence="0,1,2,3,4,5,4,3,2,1" />
+		<sprite name="onmyou_cast" ObjectType="67" file="./sprites/onmyou_cast" ext="png" frames="3" cycle="0" interval="150" sequence="0,1,2" />
+		<sprite name="onmyou_attack" ObjectType="68" file="./sprites/onmyou_attack" ext="png" frames="4" cycle="0" interval="150" sequence="0,1,2,3" />
+		<sprite name="onmyou_die" ObjectType="69" file="./sprites/onmyou_die" ext="png" frames="8" cycle="0" interval="150" sequence="0,1,2,3,4,5,6,7" />
+		
+		<sprite name="dragon_stand" ObjectType="70" file="./sprites/dragon_stand" ext="png" frames="3" cycle="0" interval="150" sequence="0" />
+		<sprite name="dragon_attack" ObjectType="71" file="./sprites/dragon_slash" ext="png" frames="5" cycle="0" interval="150" sequence="0,1,2,3,4" />
+		<sprite name="dragon_shoot" ObjectType="72" file="./sprites/dragon_stand" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="dragon_die" ObjectType="73" file="./sprites/dragon_die" ext="png" frames="7" cycle="0" interval="150" sequence="0,1,2,3,4,5,6" />
+		
+		<sprite name="barrier" ObjectType="74" file="./sprites/barrier" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="katana" ObjectType="75" file="./sprites/katana" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		
+		<sprite name="empress" ObjectType="76" file="./sprites/empress" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+		<sprite name="monk" ObjectType="77" file="./sprites/monk" ext="png" frames="1" cycle="0" interval="150" sequence="0" />
+	
+	</sprites>
+	
+	<!-- objects-->
+	
+	<objects>
+	
+		<object name="player"
+			length="75"
+			width="75"
+			height="150"
+			intelligent="1"
+			collidable="1"
+			lifetime="-1"
+			npc="0"
+			movable="1"
+		/>
+		
+			
+		<object name="nothing"
+			length="64"
+			width="0"
+			height="64"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="samurai"
+			length="75"
+			width="75"
+			height="160"
+			intelligent="1"
+			collidable="1"
+			lifetime="-1"
+			npc="1"
+			movable="1"
+		/>
+		
+		<object name="daimyo"
+			length="180"
+			width="180"
+			height="300"
+			intelligent="1"
+			collidable="1"
+			lifetime="-1"
+			npc="1"
+			movable="1"
+		/>
+		
+		<object name="dragon"
+			length="400"
+			width="200"
+			height="340"
+			intelligent="1"
+			collidable="0"
+			lifetime="-1"
+			npc="1"
+			movable="1"
+		/>
+		
+		<object name="onmyou"
+			length="75"
+			width="75"
+			height="140"
+			intelligent="1"
+			collidable="1"
+			lifetime="-1"
+			npc="1"
+			movable="1"
+		/>
+		
+		<object name="cave"
+			length="1000"
+			width="50"
+			height="845"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="empress"
+			length="75"
+			width="75"
+			height="120"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="monk"
+			length="75"
+			width="75"
+			height="200"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="ninja"
+			length="75"
+			width="75"
+			height="120"
+			intelligent="1"
+			collidable="1"
+			lifetime="-1"
+			npc="1"
+			movable="1"
+		/>
+		
+		<object name="majou"
+			length="100"
+			width="100"
+			height="250"
+			intelligent="1"
+			collidable="1"
+			lifetime="-1"
+			npc="1"
+			movable="1"
+		/>
+		
+		<object name="rock"
+			length="128"
+			width="64"
+			height="70"
+			intelligent="0"
+			collidable="1"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="bush"
+			length="128"
+			width="64"
+			height="60"
+			intelligent="0"
+			collidable="1"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="blood"
+			length="16"
+			width="16"
+			height="4"
+			intelligent="0"
+			collidable="0"
+			lifetime="1000"
+			npc="0"
+			movable="1"
+		/>
+		
+		<object name="arrow"
+			length="64"
+			width="8"
+			height="8"
+			intelligent="0"
+			collidable="1"
+			lifetime="500"
+			npc="0"
+			movable="1"
+		/>
+		
+		<object name="lantern"
+			length="128"
+			width="8"
+			height="128"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="shuriken"
+			length="32"
+			width="8"
+			height="32"
+			intelligent="0"
+			collidable="1"
+			lifetime="500"
+			npc="0"
+			movable="1"
+		/>
+		
+		<object name="mountains"
+			length="2048"
+			width="0"
+			height="512"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="magic"
+			length="16"
+			width="16"
+			height="16"
+			intelligent="0"
+			collidable="1"
+			lifetime="500"
+			npc="0"
+			movable="1"
+		/>
+		
+		<object name="grass"
+			length="1024"
+			width="0"
+			height="256"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="wall"
+			length="1024"
+			width="0"
+			height="1024"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="tree1"
+			length="512"
+			width="0"
+			height="512"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="cottage"
+			length="600"
+			width="0"
+			height="100"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="smalltree"
+			length="256"
+			width="0"
+			height="256"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="fire"
+			length="16"
+			width="16"
+			height="16"
+			intelligent="0"
+			collidable="0"
+			lifetime="200"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="particle"
+			length="16"
+			width="16"
+			height="16"
+			intelligent="0"
+			collidable="0"
+			lifetime="-1"
+			npc="0"
+			movable="1"
+		/>
+		
+		<object name="food"
+			length="64"
+			width="64"
+			height="32"
+			intelligent="0"
+			collidable="1"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="armor"
+			length="128"
+			width="64"
+			height="128"
+			intelligent="0"
+			collidable="1"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="katana"
+			length="128"
+			width="64"
+			height="128"
+			intelligent="0"
+			collidable="1"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+		<object name="barrier"
+			length="200"
+			width="700"
+			height="1000"
+			intelligent="0"
+			collidable="1"
+			lifetime="-1"
+			npc="0"
+			movable="0"
+		/>
+		
+			
+	</objects>
+	
+	<!-- sound -->
+	<!-- "cps" is number of channels per sound, 1 for mono, 2 for stereo -->
+	<!-- "bps" is number of bits per sample, usually 8 or 16 -->
+	<!-- "rate" is sample rate -->
+	
+	<sound cps="1" bps="8" rate="22050"/>
+	
+	<sounds level="0">
+	  <sound file="./sounds/intro.wav" copies="1"/>
+      <sound file="./sounds/larc.wav" copies="1"/>
+      <sound file="./sounds/credits.wav" copies="1"/>
+	</sounds>
+	
+	<sounds level="1">
+	  <sound file="./sounds/arrow.wav" copies="2"/>
+	  <sound file="./sounds/bgclk.wav" copies="2"/>
+      <sound file="./sounds/bomb.wav" copies="2"/>
+      <sound file="./sounds/death1.wav" copies="2"/>
+      <sound file="./sounds/death2.wav" copies="2"/>
+      <sound file="./sounds/death3.wav" copies="2"/>
+      <sound file="./sounds/death4.wav" copies="2"/>
+      <sound file="./sounds/defend1.wav" copies="1"/>
+      <sound file="./sounds/hurt1.wav" copies="2"/>
+      <sound file="./sounds/hurt2.wav" copies="2"/>
+      <sound file="./sounds/hurt3.wav" copies="2"/>
+      <sound file="./sounds/Smclk.wav" copies="2"/>
+      <sound file="./sounds/swing1.wav" copies="2"/>
+      <sound file="./sounds/swing2.wav" copies="2"/>
+      <sound file="./sounds/swing3.wav" copies="2"/>
+      <sound file="./sounds/swordhit1.wav" copies="2"/>
+      <sound file="./sounds/swordhit2.wav" copies="2"/>
+      <sound file="./sounds/crunch.wav" copies="3"/>
+      <sound file="./sounds/fireball.wav" copies="3"/>
+      <sound file="./sounds/splat.wav" copies="3"/>
+      <sound file="./sounds/majouscream.wav" copies="1"/>
+      <sound file="./sounds/majouhit.wav" copies="3"/>
+      <sound file="./sounds/shatter.wav" copies="1"/>
+      <sound file="./sounds/heal.wav" copies="2"/>
+      <sound file="./sounds/wind1.wav" copies="1"/>
+      <sound file="./sounds/wind2.wav" copies="1"/>
+      <sound file="./sounds/insect1.wav" copies="1"/>
+      <sound file="./sounds/frog1.wav" copies="1"/>
+      <sound file="./sounds/bird1.wav" copies="1"/>
+      <sound file="./sounds/bird2.wav" copies="1"/>
+      <sound file="./sounds/bird3.wav" copies="1"/>
+      <sound file="./sounds/bird4.wav" copies="1"/>
+      <sound file="./sounds/bird5.wav" copies="1"/>
+      <sound file="./sounds/owl1.wav" copies="1"/>
+      <sound file="./sounds/cricket1.wav" copies="1"/>
+      <sound file="./sounds/cricket2.wav" copies="1"/>
+      <sound file="./sounds/cricket3.wav" copies="1"/>
+      <sound file="./sounds/daywind1.wav" copies="1"/>
+      <sound file="./sounds/rainloop.wav" copies="1"/>
+      <sound file="./sounds/lightning1.wav" copies="1"/>
+      <sound file="./sounds/lightning2.wav" copies="1"/>
+      <sound file="./sounds/lightning3.wav" copies="1"/>
+      <sound file="./sounds/waveloop.wav" copies="1"/>
+      <sound file="./sounds/seagull1.wav" copies="1"/>
+      <sound file="./sounds/seagull2.wav" copies="1"/>
+      <sound file="./sounds/cicada1.wav" copies="1"/>
+      <sound file="./sounds/cicada2.wav" copies="1"/>
+      <sound file="./sounds/city1.wav" copies="1"/>
+      <sound file="./sounds/city2.wav" copies="1"/>
+      <sound file="./sounds/steps.wav" copies="1"/>
+      <sound file="./sounds/horse1.wav" copies="1"/>
+      <sound file="./sounds/horse2.wav" copies="1"/>
+      <sound file="./sounds/dog1.wav" copies="1"/>
+      <sound file="./sounds/horn1.wav" copies="1"/>
+      <sound file="./sounds/horn2.wav" copies="1"/>
+      <sound file="./sounds/dragonscream.wav" copies="2"/>
+      <sound file="./sounds/dragondie.wav" copies="1"/>
+      <sound file="./sounds/onmyouhit.wav" copies="2"/>
+      <sound file="./sounds/onmyoudie.wav" copies="1"/>
+      <sound file="./sounds/daimyodie.wav" copies="1"/>
+      <sound file="./sounds/sparks.wav" copies="1"/>
+      <sound file="./sounds/clang.wav" copies="2"/>
+      <sound file="./sounds/rustle.wav" copies="2"/>
+           
+            
+   	  <sound file="./sounds/music_shaku1.wav" copies="1"/>
+      <sound file="./sounds/music_shaku2.wav" copies="1"/>
+      <sound file="./sounds/music_shaku3.wav" copies="1"/>
+      <sound file="./sounds/music_shaku4.wav" copies="1"/>
+      <sound file="./sounds/music_shaku5.wav" copies="1"/>
+      <sound file="./sounds/music_koto1.wav" copies="1"/>
+      <sound file="./sounds/music_koto2.wav" copies="1"/>
+      <sound file="./sounds/music_koto3.wav" copies="1"/>
+      <sound file="./sounds/music_koto4.wav" copies="1"/>
+      <sound file="./sounds/music_koto5.wav" copies="1"/>
+      <sound file="./sounds/music_shami1.wav" copies="1"/>
+      <sound file="./sounds/music_shami2.wav" copies="1"/>
+      <sound file="./sounds/music_shami3.wav" copies="1"/>
+      <sound file="./sounds/music_shami4.wav" copies="1"/>
+      <sound file="./sounds/music_shami5.wav" copies="1"/>
+   	
+   	  
+	</sounds>
+	
+	<!-- debugger settings -->
+
+	<debug linenumber="1" header="1">
+		<file select="1" name="debug.txt"/>
+		<debugger select="0"/>
+		<ip select="1" address="127.0.0.1" port="1617"/>
+	</debug>
+
+</settings>
+
